@@ -1,0 +1,16 @@
+PODS:
+  - Rhymba (0.0.1)
+
+DEPENDENCIES:
+  - Rhymba (from `../Pod`)
+
+EXTERNAL SOURCES:
+  Rhymba:
+    :path: ../Pod
+
+SPEC CHECKSUMS:
+  Rhymba: 0717274ee1bbd2566c7a5c9581ea1c5e9bee0047
+
+PODFILE CHECKSUM: e9309783abb70f118bbc66bb31701c929023d900
+
+COCOAPODS: 1.0.1

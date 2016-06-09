@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08117B37DF3974EBE4144012E19B5E50 /* RHAlbumsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD67D9AD4DCAF2B38A0FBEF91D820079 /* RHAlbumsRequest.swift */; };
+		0E37622740A43DF495EF53102882AE68 /* RHRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382291917A6B3590712F4208E52A351 /* RHRequest.swift */; };
+		23B8F5EA8C815A823A46BAA73E9DE2A0 /* Rhymba-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A2FF1AAA0875227C86428B3A74CB8F /* Rhymba-dummy.m */; };
+		39BA9C86307538124F0B6E0CBFC86B0D /* RHAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444530DA3AF8AD01B50C47C215DBC259 /* RHAlbum.swift */; };
+		401E1750AEBBE800553F80AF46901EA8 /* RHGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE15AE08619CD93EF8E84EE5618F8FA8 /* RHGeo.swift */; };
+		429FCE8A7B87E116AB114422F161A5DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		472190CA09D0203F30F4394496582E85 /* RHArtistsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0770259ADE3C563F13C81338CE30F /* RHArtistsRequest.swift */; };
+		4F99454C339AD6B6B006F34FF5433E28 /* RHProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01418FC4563CBD84C6FCFD29C2D9253D /* RHProtocol.swift */; };
+		5BA3369A1FD9F66CD359A9E4858BCCE8 /* RHProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7958DE3E2229734CCD56F5B1220EF870 /* RHProvider.swift */; };
+		6E3913DF8749363FBDFAF5DAED6432E2 /* RHModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ACE260E69D2F9DE25BBA9354714A8F /* RHModel.swift */; };
+		99802AED8D847D976E15C0819342A701 /* Rhymba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868850E75A485E38F5E311B384B59D13 /* Rhymba.swift */; };
+		9E97F3CEE195DC9D26B60F88C1E8BD9A /* RHMediaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C67B2B56B9902CE364457594192B98 /* RHMediaRequest.swift */; };
+		A19B10036876016F8A5D48CB221D7876 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A1C8E52FB09C53137B3260A65A85AE93 /* APISearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38887FA8CF87A9FE0FBF6DEA68BE3553 /* APISearchManager.swift */; };
+		A54638C7E10D20AD06CA8D17633B0A6C /* RHArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0E2574261CAA76731E8EAE65F91750 /* RHArtist.swift */; };
+		A8F515D1F224EBE2892AD16B86BC47A4 /* RHMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D61D0A2852CA8D37645A3A54B8BF90 /* RHMedia.swift */; };
+		ACB386022FED9BB1EF0020370C373F92 /* RHGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C849C2D9DB618DDE93A1B03BF565F94 /* RHGenre.swift */; };
+		B6CD0695BBE72A40FEA2DC16F23BB9AE /* Rhymba-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4D1513FEF8C36FECD8929572990227 /* Rhymba-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE8A6E5F278FA6DD062C9D7519AB7279 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E4A76839E80B8831237C236769080 /* Filter.swift */; };
+		D967706D7EBAFAF0B68CA2292185EC9D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46812C38A886A8F0EACC634A7FE408 /* Extensions.swift */; };
+		DBE5F66266FEEEF5570CA014FE390297 /* Pods-RhymbaExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8476F3B270D03274A7402369D7B833B5 /* Pods-RhymbaExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE93810D69E2E75C47BCA6BA78BFE707 /* Pods-RhymbaExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F61F4239361072C572DE1E786B98853 /* Pods-RhymbaExample-dummy.m */; };
+		FBF90771B937260A1F2BA60BA2F6AB96 /* Rhymba.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFB72D08DEEBE9F0E2637DF44A9E8DE /* Rhymba.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CC0B29792137214A1FCA7E73A745722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D601FFBA6E08FD4DA1FCF35F1E836EDE;
+			remoteInfo = Rhymba;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01418FC4563CBD84C6FCFD29C2D9253D /* RHProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHProtocol.swift; sourceTree = "<group>"; };
+		08554E98580646EA3CEAF59308B0B01D /* Pods-RhymbaExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RhymbaExample.debug.xcconfig"; sourceTree = "<group>"; };
+		08F955A70C84FF0835E5D84B8FAA1519 /* Pods-RhymbaExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RhymbaExample.release.xcconfig"; sourceTree = "<group>"; };
+		19D61D0A2852CA8D37645A3A54B8BF90 /* RHMedia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHMedia.swift; sourceTree = "<group>"; };
+		2BF854AE5BAC38E2AE5ADAF48F97B7FC /* Pods-RhymbaExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RhymbaExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		38887FA8CF87A9FE0FBF6DEA68BE3553 /* APISearchManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APISearchManager.swift; sourceTree = "<group>"; };
+		41FE220F106FE930AED6EE0D1D4F904B /* Pods-RhymbaExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RhymbaExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		444530DA3AF8AD01B50C47C215DBC259 /* RHAlbum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHAlbum.swift; sourceTree = "<group>"; };
+		448D9C6746E0ABBC48901FBA38ADDE27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C849C2D9DB618DDE93A1B03BF565F94 /* RHGenre.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHGenre.swift; sourceTree = "<group>"; };
+		65ACE260E69D2F9DE25BBA9354714A8F /* RHModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHModel.swift; sourceTree = "<group>"; };
+		6E31697DE549A4C213EF0F74F34CC447 /* Pods-RhymbaExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RhymbaExample-resources.sh"; sourceTree = "<group>"; };
+		7958DE3E2229734CCD56F5B1220EF870 /* RHProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHProvider.swift; sourceTree = "<group>"; };
+		79D3067A846D5F0121678244E44127D7 /* Rhymba.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Rhymba.modulemap; sourceTree = "<group>"; };
+		7E0E2574261CAA76731E8EAE65F91750 /* RHArtist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHArtist.swift; sourceTree = "<group>"; };
+		8476F3B270D03274A7402369D7B833B5 /* Pods-RhymbaExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RhymbaExample-umbrella.h"; sourceTree = "<group>"; };
+		868850E75A485E38F5E311B384B59D13 /* Rhymba.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Rhymba.swift; sourceTree = "<group>"; };
+		87F0770259ADE3C563F13C81338CE30F /* RHArtistsRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHArtistsRequest.swift; sourceTree = "<group>"; };
+		8E4D1513FEF8C36FECD8929572990227 /* Rhymba-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rhymba-umbrella.h"; sourceTree = "<group>"; };
+		8FF6554877FD9556D7AF3F138653386B /* Rhymba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rhymba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F61F4239361072C572DE1E786B98853 /* Pods-RhymbaExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RhymbaExample-dummy.m"; sourceTree = "<group>"; };
+		AB55D5F8B18ED774E15E36203B8A76CF /* Rhymba.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rhymba.xcconfig; sourceTree = "<group>"; };
+		B716F7504B66F4E8AC0366A3FD67453D /* Pods-RhymbaExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RhymbaExample.modulemap"; sourceTree = "<group>"; };
+		BD15D4158AEA225D03DF40A5E17AB708 /* Rhymba-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rhymba-prefix.pch"; sourceTree = "<group>"; };
+		CB1E4A76839E80B8831237C236769080 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		CDFB72D08DEEBE9F0E2637DF44A9E8DE /* Rhymba.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Rhymba.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D04E8DF81D28B4841FD39E4C9DED17D6 /* Pods_RhymbaExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RhymbaExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C67B2B56B9902CE364457594192B98 /* RHMediaRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHMediaRequest.swift; sourceTree = "<group>"; };
+		D85B87EFC786934DF5BA0983ECC9DD83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF46812C38A886A8F0EACC634A7FE408 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E5204B511DD76C1B7A3287D78390FF48 /* Pods-RhymbaExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RhymbaExample-frameworks.sh"; sourceTree = "<group>"; };
+		F382291917A6B3590712F4208E52A351 /* RHRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHRequest.swift; sourceTree = "<group>"; };
+		F7A2FF1AAA0875227C86428B3A74CB8F /* Rhymba-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Rhymba-dummy.m"; sourceTree = "<group>"; };
+		FD67D9AD4DCAF2B38A0FBEF91D820079 /* RHAlbumsRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHAlbumsRequest.swift; sourceTree = "<group>"; };
+		FE15AE08619CD93EF8E84EE5618F8FA8 /* RHGeo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RHGeo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DCC63800AA71EAED1C50132BFF5A21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19B10036876016F8A5D48CB221D7876 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE178847D3FAC300E3145C081AEC8676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429FCE8A7B87E116AB114422F161A5DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B5093EB4C882F82CEC947A7C553727 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D85B87EFC786934DF5BA0983ECC9DD83 /* Info.plist */,
+				79D3067A846D5F0121678244E44127D7 /* Rhymba.modulemap */,
+				AB55D5F8B18ED774E15E36203B8A76CF /* Rhymba.xcconfig */,
+				F7A2FF1AAA0875227C86428B3A74CB8F /* Rhymba-dummy.m */,
+				BD15D4158AEA225D03DF40A5E17AB708 /* Rhymba-prefix.pch */,
+				8E4D1513FEF8C36FECD8929572990227 /* Rhymba-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../RhymbaExample/Pods/Target Support Files/Rhymba";
+			sourceTree = "<group>";
+		};
+		0412A3081E792F9C16915DEC712D89D6 /* Expand Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C849C2D9DB618DDE93A1B03BF565F94 /* RHGenre.swift */,
+				FE15AE08619CD93EF8E84EE5618F8FA8 /* RHGeo.swift */,
+				7958DE3E2229734CCD56F5B1220EF870 /* RHProvider.swift */,
+			);
+			path = "Expand Models";
+			sourceTree = "<group>";
+		};
+		05EA24AC8F8CD9A71F6C9D9DF29EA018 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				38887FA8CF87A9FE0FBF6DEA68BE3553 /* APISearchManager.swift */,
+				CB1E4A76839E80B8831237C236769080 /* Filter.swift */,
+				10E4278BCB379BFEA043D06F2AE59F0C /* Search */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		0B402CFEB4CD70ECD4DAAE2D4B01953B /* Pods-RhymbaExample */ = {
+			isa = PBXGroup;
+			children = (
+				448D9C6746E0ABBC48901FBA38ADDE27 /* Info.plist */,
+				B716F7504B66F4E8AC0366A3FD67453D /* Pods-RhymbaExample.modulemap */,
+				41FE220F106FE930AED6EE0D1D4F904B /* Pods-RhymbaExample-acknowledgements.markdown */,
+				2BF854AE5BAC38E2AE5ADAF48F97B7FC /* Pods-RhymbaExample-acknowledgements.plist */,
+				9F61F4239361072C572DE1E786B98853 /* Pods-RhymbaExample-dummy.m */,
+				E5204B511DD76C1B7A3287D78390FF48 /* Pods-RhymbaExample-frameworks.sh */,
+				6E31697DE549A4C213EF0F74F34CC447 /* Pods-RhymbaExample-resources.sh */,
+				8476F3B270D03274A7402369D7B833B5 /* Pods-RhymbaExample-umbrella.h */,
+				08554E98580646EA3CEAF59308B0B01D /* Pods-RhymbaExample.debug.xcconfig */,
+				08F955A70C84FF0835E5D84B8FAA1519 /* Pods-RhymbaExample.release.xcconfig */,
+			);
+			name = "Pods-RhymbaExample";
+			path = "Target Support Files/Pods-RhymbaExample";
+			sourceTree = "<group>";
+		};
+		10E4278BCB379BFEA043D06F2AE59F0C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FD67D9AD4DCAF2B38A0FBEF91D820079 /* RHAlbumsRequest.swift */,
+				87F0770259ADE3C563F13C81338CE30F /* RHArtistsRequest.swift */,
+				D0C67B2B56B9902CE364457594192B98 /* RHMediaRequest.swift */,
+				1B7DAE3588436098FA4F9011D247AE5D /* Base */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		1B7DAE3588436098FA4F9011D247AE5D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				01418FC4563CBD84C6FCFD29C2D9253D /* RHProtocol.swift */,
+				F382291917A6B3590712F4208E52A351 /* RHRequest.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		391F3464344D3A9222941199CB9AB700 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B402CFEB4CD70ECD4DAAE2D4B01953B /* Pods-RhymbaExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39FC38C007D24AEA5E95EB74B67BD602 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				444530DA3AF8AD01B50C47C215DBC259 /* RHAlbum.swift */,
+				7E0E2574261CAA76731E8EAE65F91750 /* RHArtist.swift */,
+				19D61D0A2852CA8D37645A3A54B8BF90 /* RHMedia.swift */,
+				F0E27A819E2A311C44BCCCF00460A9D2 /* Base */,
+				0412A3081E792F9C16915DEC712D89D6 /* Expand Models */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B2E79BB7CF32ADD1E512414DC54BABA9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A1311671147E92BCF4CE6992A1AFB417 /* Products */,
+				391F3464344D3A9222941199CB9AB700 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E3498CB04483E0A71D5F82527240455 /* Rhymba */ = {
+			isa = PBXGroup;
+			children = (
+				CD7909A1766A09130D273AC5539906E3 /* Rhymba */,
+				03B5093EB4C882F82CEC947A7C553727 /* Support Files */,
+			);
+			name = Rhymba;
+			path = ../../Pod;
+			sourceTree = "<group>";
+		};
+		A1311671147E92BCF4CE6992A1AFB417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04E8DF81D28B4841FD39E4C9DED17D6 /* Pods_RhymbaExample.framework */,
+				8FF6554877FD9556D7AF3F138653386B /* Rhymba.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2E79BB7CF32ADD1E512414DC54BABA9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E3498CB04483E0A71D5F82527240455 /* Rhymba */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD7909A1766A09130D273AC5539906E3 /* Rhymba */ = {
+			isa = PBXGroup;
+			children = (
+				CDFB72D08DEEBE9F0E2637DF44A9E8DE /* Rhymba.h */,
+				868850E75A485E38F5E311B384B59D13 /* Rhymba.swift */,
+				05EA24AC8F8CD9A71F6C9D9DF29EA018 /* APIManager */,
+				E0E9A29E684F65B13111499E8E1D82F9 /* Helpers */,
+				39FC38C007D24AEA5E95EB74B67BD602 /* Models */,
+			);
+			path = Rhymba;
+			sourceTree = "<group>";
+		};
+		E0E9A29E684F65B13111499E8E1D82F9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DF46812C38A886A8F0EACC634A7FE408 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F0E27A819E2A311C44BCCCF00460A9D2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				65ACE260E69D2F9DE25BBA9354714A8F /* RHModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		670194E7EAEA9E8692CABC27E83FDCDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE5F66266FEEEF5570CA014FE390297 /* Pods-RhymbaExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E258CC4D79760429D435FB12057B67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CD0695BBE72A40FEA2DC16F23BB9AE /* Rhymba-umbrella.h in Headers */,
+				FBF90771B937260A1F2BA60BA2F6AB96 /* Rhymba.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		98D3B483200E4B6D21E3C6450C07F810 /* Pods-RhymbaExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB67B31255E33E9CFBB73D1A7308A571 /* Build configuration list for PBXNativeTarget "Pods-RhymbaExample" */;
+			buildPhases = (
+				659DBD9086460C05E2976EE3952173C7 /* Sources */,
+				8DCC63800AA71EAED1C50132BFF5A21F /* Frameworks */,
+				670194E7EAEA9E8692CABC27E83FDCDE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCE791BFB77711E945D659D2B18FD50 /* PBXTargetDependency */,
+			);
+			name = "Pods-RhymbaExample";
+			productName = "Pods-RhymbaExample";
+			productReference = D04E8DF81D28B4841FD39E4C9DED17D6 /* Pods_RhymbaExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D601FFBA6E08FD4DA1FCF35F1E836EDE /* Rhymba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725AE677592270A97272914339B6CB9A /* Build configuration list for PBXNativeTarget "Rhymba" */;
+			buildPhases = (
+				8B640F9349B5D8BC766D43F3D89EC44A /* Sources */,
+				FE178847D3FAC300E3145C081AEC8676 /* Frameworks */,
+				91E258CC4D79760429D435FB12057B67 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rhymba;
+			productName = Rhymba;
+			productReference = 8FF6554877FD9556D7AF3F138653386B /* Rhymba.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A1311671147E92BCF4CE6992A1AFB417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98D3B483200E4B6D21E3C6450C07F810 /* Pods-RhymbaExample */,
+				D601FFBA6E08FD4DA1FCF35F1E836EDE /* Rhymba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659DBD9086460C05E2976EE3952173C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE93810D69E2E75C47BCA6BA78BFE707 /* Pods-RhymbaExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B640F9349B5D8BC766D43F3D89EC44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C8E52FB09C53137B3260A65A85AE93 /* APISearchManager.swift in Sources */,
+				D967706D7EBAFAF0B68CA2292185EC9D /* Extensions.swift in Sources */,
+				CE8A6E5F278FA6DD062C9D7519AB7279 /* Filter.swift in Sources */,
+				39BA9C86307538124F0B6E0CBFC86B0D /* RHAlbum.swift in Sources */,
+				08117B37DF3974EBE4144012E19B5E50 /* RHAlbumsRequest.swift in Sources */,
+				A54638C7E10D20AD06CA8D17633B0A6C /* RHArtist.swift in Sources */,
+				472190CA09D0203F30F4394496582E85 /* RHArtistsRequest.swift in Sources */,
+				ACB386022FED9BB1EF0020370C373F92 /* RHGenre.swift in Sources */,
+				401E1750AEBBE800553F80AF46901EA8 /* RHGeo.swift in Sources */,
+				A8F515D1F224EBE2892AD16B86BC47A4 /* RHMedia.swift in Sources */,
+				9E97F3CEE195DC9D26B60F88C1E8BD9A /* RHMediaRequest.swift in Sources */,
+				6E3913DF8749363FBDFAF5DAED6432E2 /* RHModel.swift in Sources */,
+				4F99454C339AD6B6B006F34FF5433E28 /* RHProtocol.swift in Sources */,
+				5BA3369A1FD9F66CD359A9E4858BCCE8 /* RHProvider.swift in Sources */,
+				0E37622740A43DF495EF53102882AE68 /* RHRequest.swift in Sources */,
+				23B8F5EA8C815A823A46BAA73E9DE2A0 /* Rhymba-dummy.m in Sources */,
+				99802AED8D847D976E15C0819342A701 /* Rhymba.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFCE791BFB77711E945D659D2B18FD50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Rhymba;
+			target = D601FFBA6E08FD4DA1FCF35F1E836EDE /* Rhymba */;
+			targetProxy = 7CC0B29792137214A1FCA7E73A745722 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5920503051C34DFE87BDBC3673F6278D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB55D5F8B18ED774E15E36203B8A76CF /* Rhymba.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Rhymba/Rhymba-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rhymba/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rhymba/Rhymba.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Rhymba;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FB928412895007507421B0156D389B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F955A70C84FF0835E5D84B8FAA1519 /* Pods-RhymbaExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RhymbaExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RhymbaExample/Pods-RhymbaExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RhymbaExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEDDD4D41A4D6D6D9313228469EC41A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB55D5F8B18ED774E15E36203B8A76CF /* Rhymba.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Rhymba/Rhymba-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rhymba/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rhymba/Rhymba.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Rhymba;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E406DA0B5FE2C58FA7A8DF852F1F891E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08554E98580646EA3CEAF59308B0B01D /* Pods-RhymbaExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RhymbaExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RhymbaExample/Pods-RhymbaExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RhymbaExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725AE677592270A97272914339B6CB9A /* Build configuration list for PBXNativeTarget "Rhymba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDDD4D41A4D6D6D9313228469EC41A0 /* Debug */,
+				5920503051C34DFE87BDBC3673F6278D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB67B31255E33E9CFBB73D1A7308A571 /* Build configuration list for PBXNativeTarget "Pods-RhymbaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E406DA0B5FE2C58FA7A8DF852F1F891E /* Debug */,
+				6FB928412895007507421B0156D389B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

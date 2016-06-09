@@ -1,0 +1,6 @@
+framework module Rhymba {
+  umbrella header "Rhymba-umbrella.h"
+
+  export *
+  module * { export * }
+}
