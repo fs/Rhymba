@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Rhymba.initialize(accessToken: access_token, secretKey: access_secret)
         Rhymba.loggingLevel = .Verbose
         
-        let filter = Filter.newInstance().startsWith("albumd_name", value: "j").startsWith("album_name", value: "a").greaterThan("id", value: 10)
+        let filter = Filter.newInstance().startsWith("album_name", value: "j").startsWith("album_name", value: "a").greaterThan("id", value: 10)
         
         let request = Rhymba.Search.getMediaRequest()
         do {
@@ -33,12 +33,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                        .skip(100)
                        .top(100)
                        .start({ (totalCount, result) in
-                
+               
+                        print(totalCount)
+                        print(result)
+                        print("Success")
             }) { (error) in
-                
+                print(error)
             }
         } catch {
-            
+            print("Catch some error")
         }
         
         // Override point for customization after application launch.
